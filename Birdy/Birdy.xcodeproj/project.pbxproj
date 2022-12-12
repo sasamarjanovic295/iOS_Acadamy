@@ -3,28 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F755BC3293FA2F4007E7B62 /* BirdyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F755BC2293FA2F4007E7B62 /* BirdyApp.swift */; };
-		3F755BC5293FA2F4007E7B62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F755BC4293FA2F4007E7B62 /* ContentView.swift */; };
-		3F755BC7293FA2F6007E7B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F755BC6293FA2F6007E7B62 /* Assets.xcassets */; };
-		3F755BCA293FA2F6007E7B62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F755BC9293FA2F6007E7B62 /* Preview Assets.xcassets */; };
-		3F755BD1293FB2DE007E7B62 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F755BD0293FB2DE007E7B62 /* Tweet.swift */; };
+		017F30C629476009009F19F9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30C529476009009F19F9 /* Tests_iOS.swift */; };
+		017F30C829476009009F19F9 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30C729476009009F19F9 /* Tests_iOSLaunchTests.swift */; };
+		017F30D229476009009F19F9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30D129476009009F19F9 /* Tests_macOS.swift */; };
+		017F30D429476009009F19F9 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30D329476009009F19F9 /* Tests_macOSLaunchTests.swift */; };
+		017F30D529476009009F19F9 /* BirdyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30AD29476009009F19F9 /* BirdyApp.swift */; };
+		017F30D629476009009F19F9 /* BirdyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30AD29476009009F19F9 /* BirdyApp.swift */; };
+		017F30D729476009009F19F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30AE29476009009F19F9 /* ContentView.swift */; };
+		017F30D829476009009F19F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30AE29476009009F19F9 /* ContentView.swift */; };
+		017F30D929476009009F19F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017F30AF29476009009F19F9 /* Assets.xcassets */; };
+		017F30DA29476009009F19F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017F30AF29476009009F19F9 /* Assets.xcassets */; };
+		017F30EC29476074009F19F9 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30EB29476074009F19F9 /* Tweet.swift */; };
+		017F30EE2947616A009F19F9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30ED2947616A009F19F9 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		017F30C229476009009F19F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017F30A829476008009F19F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017F30B329476009009F19F9;
+			remoteInfo = "Birdy (iOS)";
+		};
+		017F30CE29476009009F19F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017F30A829476008009F19F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017F30B929476009009F19F9;
+			remoteInfo = "Birdy (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		3F755BBF293FA2F4007E7B62 /* Birdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F755BC2293FA2F4007E7B62 /* BirdyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyApp.swift; sourceTree = "<group>"; };
-		3F755BC4293FA2F4007E7B62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3F755BC6293FA2F6007E7B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F755BC9293FA2F6007E7B62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3F755BD0293FB2DE007E7B62 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		017F30AD29476009009F19F9 /* BirdyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdyApp.swift; sourceTree = "<group>"; };
+		017F30AE29476009009F19F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		017F30AF29476009009F19F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		017F30B429476009009F19F9 /* Birdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017F30BA29476009009F19F9 /* Birdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017F30BC29476009009F19F9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		017F30C129476009009F19F9 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017F30C529476009009F19F9 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		017F30C729476009009F19F9 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		017F30CD29476009009F19F9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017F30D129476009009F19F9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		017F30D329476009009F19F9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		017F30EB29476074009F19F9 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		017F30ED2947616A009F19F9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F755BBC293FA2F4007E7B62 /* Frameworks */ = {
+		017F30B129476009009F19F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30B729476009009F19F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30BE29476009009F19F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30CA29476009009F19F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,128 +87,281 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F755BB6293FA2F3007E7B62 = {
+		017F30A729476008009F19F9 = {
 			isa = PBXGroup;
 			children = (
-				3F755BC1293FA2F4007E7B62 /* Birdy */,
-				3F755BC0293FA2F4007E7B62 /* Products */,
+				017F30AC29476008009F19F9 /* Shared */,
+				017F30BB29476009009F19F9 /* macOS */,
+				017F30C429476009009F19F9 /* Tests iOS */,
+				017F30D029476009009F19F9 /* Tests macOS */,
+				017F30B529476009009F19F9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F755BC0293FA2F4007E7B62 /* Products */ = {
+		017F30AC29476008009F19F9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				3F755BBF293FA2F4007E7B62 /* Birdy.app */,
+				017F30AD29476009009F19F9 /* BirdyApp.swift */,
+				017F30AE29476009009F19F9 /* ContentView.swift */,
+				017F30AF29476009009F19F9 /* Assets.xcassets */,
+				017F30EB29476074009F19F9 /* Tweet.swift */,
+				017F30ED2947616A009F19F9 /* LoginView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		017F30B529476009009F19F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017F30B429476009009F19F9 /* Birdy.app */,
+				017F30BA29476009009F19F9 /* Birdy.app */,
+				017F30C129476009009F19F9 /* Tests iOS.xctest */,
+				017F30CD29476009009F19F9 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F755BC1293FA2F4007E7B62 /* Birdy */ = {
+		017F30BB29476009009F19F9 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				3F755BC2293FA2F4007E7B62 /* BirdyApp.swift */,
-				3F755BC4293FA2F4007E7B62 /* ContentView.swift */,
-				3F755BC6293FA2F6007E7B62 /* Assets.xcassets */,
-				3F755BC8293FA2F6007E7B62 /* Preview Content */,
-				3F755BD0293FB2DE007E7B62 /* Tweet.swift */,
+				017F30BC29476009009F19F9 /* macOS.entitlements */,
 			);
-			path = Birdy;
+			path = macOS;
 			sourceTree = "<group>";
 		};
-		3F755BC8293FA2F6007E7B62 /* Preview Content */ = {
+		017F30C429476009009F19F9 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3F755BC9293FA2F6007E7B62 /* Preview Assets.xcassets */,
+				017F30C529476009009F19F9 /* Tests_iOS.swift */,
+				017F30C729476009009F19F9 /* Tests_iOSLaunchTests.swift */,
 			);
-			path = "Preview Content";
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		017F30D029476009009F19F9 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				017F30D129476009009F19F9 /* Tests_macOS.swift */,
+				017F30D329476009009F19F9 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F755BBE293FA2F4007E7B62 /* Birdy */ = {
+		017F30B329476009009F19F9 /* Birdy (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F755BCD293FA2F6007E7B62 /* Build configuration list for PBXNativeTarget "Birdy" */;
+			buildConfigurationList = 017F30DD29476009009F19F9 /* Build configuration list for PBXNativeTarget "Birdy (iOS)" */;
 			buildPhases = (
-				3F755BBB293FA2F4007E7B62 /* Sources */,
-				3F755BBC293FA2F4007E7B62 /* Frameworks */,
-				3F755BBD293FA2F4007E7B62 /* Resources */,
+				017F30B029476009009F19F9 /* Sources */,
+				017F30B129476009009F19F9 /* Frameworks */,
+				017F30B229476009009F19F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Birdy;
-			productName = Birdy;
-			productReference = 3F755BBF293FA2F4007E7B62 /* Birdy.app */;
+			name = "Birdy (iOS)";
+			productName = "Birdy (iOS)";
+			productReference = 017F30B429476009009F19F9 /* Birdy.app */;
 			productType = "com.apple.product-type.application";
+		};
+		017F30B929476009009F19F9 /* Birdy (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017F30E029476009009F19F9 /* Build configuration list for PBXNativeTarget "Birdy (macOS)" */;
+			buildPhases = (
+				017F30B629476009009F19F9 /* Sources */,
+				017F30B729476009009F19F9 /* Frameworks */,
+				017F30B829476009009F19F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birdy (macOS)";
+			productName = "Birdy (macOS)";
+			productReference = 017F30BA29476009009F19F9 /* Birdy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		017F30C029476009009F19F9 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017F30E329476009009F19F9 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				017F30BD29476009009F19F9 /* Sources */,
+				017F30BE29476009009F19F9 /* Frameworks */,
+				017F30BF29476009009F19F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017F30C329476009009F19F9 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 017F30C129476009009F19F9 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		017F30CC29476009009F19F9 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017F30E629476009009F19F9 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				017F30C929476009009F19F9 /* Sources */,
+				017F30CA29476009009F19F9 /* Frameworks */,
+				017F30CB29476009009F19F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017F30CF29476009009F19F9 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 017F30CD29476009009F19F9 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F755BB7293FA2F3007E7B62 /* Project object */ = {
+		017F30A829476008009F19F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					3F755BBE293FA2F4007E7B62 = {
-						CreatedOnToolsVersion = 14.0.1;
+					017F30B329476009009F19F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					017F30B929476009009F19F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					017F30C029476009009F19F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 017F30B329476009009F19F9;
+					};
+					017F30CC29476009009F19F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 017F30B929476009009F19F9;
 					};
 				};
 			};
-			buildConfigurationList = 3F755BBA293FA2F3007E7B62 /* Build configuration list for PBXProject "Birdy" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 017F30AB29476008009F19F9 /* Build configuration list for PBXProject "Birdy" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3F755BB6293FA2F3007E7B62;
-			productRefGroup = 3F755BC0293FA2F4007E7B62 /* Products */;
+			mainGroup = 017F30A729476008009F19F9;
+			productRefGroup = 017F30B529476009009F19F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F755BBE293FA2F4007E7B62 /* Birdy */,
+				017F30B329476009009F19F9 /* Birdy (iOS) */,
+				017F30B929476009009F19F9 /* Birdy (macOS) */,
+				017F30C029476009009F19F9 /* Tests iOS */,
+				017F30CC29476009009F19F9 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F755BBD293FA2F4007E7B62 /* Resources */ = {
+		017F30B229476009009F19F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F755BCA293FA2F6007E7B62 /* Preview Assets.xcassets in Resources */,
-				3F755BC7293FA2F6007E7B62 /* Assets.xcassets in Resources */,
+				017F30D929476009009F19F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30B829476009009F19F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017F30DA29476009009F19F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30BF29476009009F19F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30CB29476009009F19F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F755BBB293FA2F4007E7B62 /* Sources */ = {
+		017F30B029476009009F19F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F755BD1293FB2DE007E7B62 /* Tweet.swift in Sources */,
-				3F755BC5293FA2F4007E7B62 /* ContentView.swift in Sources */,
-				3F755BC3293FA2F4007E7B62 /* BirdyApp.swift in Sources */,
+				017F30EC29476074009F19F9 /* Tweet.swift in Sources */,
+				017F30D729476009009F19F9 /* ContentView.swift in Sources */,
+				017F30EE2947616A009F19F9 /* LoginView.swift in Sources */,
+				017F30D529476009009F19F9 /* BirdyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30B629476009009F19F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017F30D829476009009F19F9 /* ContentView.swift in Sources */,
+				017F30D629476009009F19F9 /* BirdyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30BD29476009009F19F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017F30C829476009009F19F9 /* Tests_iOSLaunchTests.swift in Sources */,
+				017F30C629476009009F19F9 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017F30C929476009009F19F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017F30D429476009009F19F9 /* Tests_macOSLaunchTests.swift in Sources */,
+				017F30D229476009009F19F9 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		017F30C329476009009F19F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017F30B329476009009F19F9 /* Birdy (iOS) */;
+			targetProxy = 017F30C229476009009F19F9 /* PBXContainerItemProxy */;
+		};
+		017F30CF29476009009F19F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017F30B929476009009F19F9 /* Birdy (macOS) */;
+			targetProxy = 017F30CE29476009009F19F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		3F755BCB293FA2F6007E7B62 /* Debug */ = {
+		017F30DB29476009009F19F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -199,23 +405,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		3F755BCC293FA2F6007E7B62 /* Release */ = {
+		017F30DC29476009009F19F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -253,24 +457,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3F755BCE293FA2F6007E7B62 /* Debug */ = {
+		017F30DE29476009009F19F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Birdy/Preview Content\"";
+				DEVELOPMENT_TEAM = 33YC64FJBS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -278,27 +479,29 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ferit.Birdy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Birdy";
+				PRODUCT_NAME = Birdy;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3F755BCF293FA2F6007E7B62 /* Release */ = {
+		017F30DF29476009009F19F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Birdy/Preview Content\"";
+				DEVELOPMENT_TEAM = 33YC64FJBS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -306,41 +509,206 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ferit.Birdy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Birdy";
+				PRODUCT_NAME = Birdy;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017F30E129476009009F19F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YC64FJBS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Birdy";
+				PRODUCT_NAME = Birdy;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		017F30E229476009009F19F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YC64FJBS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Birdy";
+				PRODUCT_NAME = Birdy;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		017F30E429476009009F19F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YC64FJBS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birdy (iOS)";
+			};
+			name = Debug;
+		};
+		017F30E529476009009F19F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YC64FJBS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birdy (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017F30E729476009009F19F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YC64FJBS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Birdy (macOS)";
+			};
+			name = Debug;
+		};
+		017F30E829476009009F19F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YC64FJBS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Academy.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Birdy (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F755BBA293FA2F3007E7B62 /* Build configuration list for PBXProject "Birdy" */ = {
+		017F30AB29476008009F19F9 /* Build configuration list for PBXProject "Birdy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F755BCB293FA2F6007E7B62 /* Debug */,
-				3F755BCC293FA2F6007E7B62 /* Release */,
+				017F30DB29476009009F19F9 /* Debug */,
+				017F30DC29476009009F19F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F755BCD293FA2F6007E7B62 /* Build configuration list for PBXNativeTarget "Birdy" */ = {
+		017F30DD29476009009F19F9 /* Build configuration list for PBXNativeTarget "Birdy (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F755BCE293FA2F6007E7B62 /* Debug */,
-				3F755BCF293FA2F6007E7B62 /* Release */,
+				017F30DE29476009009F19F9 /* Debug */,
+				017F30DF29476009009F19F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017F30E029476009009F19F9 /* Build configuration list for PBXNativeTarget "Birdy (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017F30E129476009009F19F9 /* Debug */,
+				017F30E229476009009F19F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017F30E329476009009F19F9 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017F30E429476009009F19F9 /* Debug */,
+				017F30E529476009009F19F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017F30E629476009009F19F9 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017F30E729476009009F19F9 /* Debug */,
+				017F30E829476009009F19F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F755BB7293FA2F3007E7B62 /* Project object */;
+	rootObject = 017F30A829476008009F19F9 /* Project object */;
 }

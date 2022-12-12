@@ -1,8 +1,8 @@
 //
 //  Tweet.swift
-//  Birdy
+//  Birdy (iOS)
 //
-//  Created by student on 06.12.2022..
+//  Created by Saša Marjanović on 12.12.2022..
 //
 
 import SwiftUI
@@ -14,12 +14,12 @@ struct TweetModel: Identifiable {
     let username: String
     let date: Date
     let image: String
-    let isFavorite: Bool
+    var isFavorite: Bool
 }
 
 struct Tweet: View {
     
-    let tweet: TweetModel
+    @Binding var tweet: TweetModel
     
     var body: some View {
         HStack {
@@ -36,7 +36,9 @@ struct Tweet: View {
             
             Spacer()
             
-            Button(action: {}){
+            Button(action: {
+                tweet.isFavorite.toggle()
+            }){
                 if(tweet.isFavorite){
                     Image(systemName: "heart.fill")
                         .foregroundColor(.red)
@@ -52,11 +54,11 @@ struct Tweet: View {
 
 struct Tweet_Previews: PreviewProvider {
     static var previews: some View {
-        Tweet(tweet: TweetModel(
+        Tweet(tweet: Binding.constant(TweetModel(
             content: "Tweet1",
             username: "username",
             date: Date(),
             image: "crow",
-            isFavorite: true))
+            isFavorite: true)))
     }
 }

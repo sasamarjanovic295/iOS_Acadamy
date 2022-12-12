@@ -1,8 +1,8 @@
 //
 //  BirdyApp.swift
-//  Birdy
+//  Shared
 //
-//  Created by student on 06.12.2022..
+//  Created by Saša Marjanović on 12.12.2022..
 //
 
 import SwiftUI
