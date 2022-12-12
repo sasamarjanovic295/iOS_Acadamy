@@ -9,9 +9,28 @@ import SwiftUI
 
 @main
 struct BirdyApp: App {
+    
+    @StateObject var tweetData = TweetData()
+    @StateObject var userData = UserData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                ContentView()
+                    .tabItem{
+                        Label("Feed", systemImage: "list.bullet.circle")
+                    }
+                SearchView()
+                    .tabItem{
+                        Label("Search", systemImage: "magnifyingglass.circle")
+                    }
+                ProfileView()
+                    .tabItem{
+                        Label("Profile", systemImage: "person.circle")
+                    }
+            }
+            .environmentObject(tweetData)
+            .environmentObject(userData)
         }
     }
 }

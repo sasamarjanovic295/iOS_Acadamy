@@ -9,41 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var username = ""
-    
     @State var isLoginViewPresented = false
     
     @State var content: String = ""
     
-    @State var tweets: [TweetModel] = [
-        TweetModel(
-            content: "Tweet1",
-            username: "username",
-            date: Date(),
-            image: "crow",
-            isFavorite: true
-        ),
-        TweetModel(
-            content: "Tweet 2",
-            username: "username",
-            date: Date(),
-            image: "crow",
-            isFavorite: false
-        ),
-        TweetModel(
-            content: "Tweet 3",
-            username: "username",
-            date: Date(),
-            image: "crow",
-            isFavorite: true
-        )
-    ]
-    
+    @EnvironmentObject var tweetData: TweetData
+    @EnvironmentObject var userData : UserData
     
     var body: some View {
         VStack {
             HStack {
-                Text(username.isEmpty ? "Birdy" : username)
+                Text(userData.username.isEmpty ? "Birdy" : userData.username)
                     .font(.title)
                 Spacer()
                 Button(action: {
@@ -53,7 +29,7 @@ struct ContentView: View {
                 }
             }
             Spacer()
-            List($tweets){
+            List($tweetData.tweets){
                 tweet in Tweet(tweet: tweet)
             }
             .listStyle(.plain)
@@ -63,12 +39,11 @@ struct ContentView: View {
                 TextField("Content", text: $content)
                 
                 Button(action: {
-                    tweets.append(TweetModel(
+                    tweetData.tweets.append(TweetModel(
                         content: content,
-                        username: username.isEmpty ? "username" : username,
+                        username: userData.username,
                         date: Date(),
-                        image: "crow",
-                        isFavorite: false))
+                        image: "crow"))
                     content=""
                 }){
                     Text("New Tweet")
@@ -78,12 +53,14 @@ struct ContentView: View {
         }
         .padding()
         .sheet(isPresented: $isLoginViewPresented, content: {
-            LoginView(username: $username, isPresented: $isLoginViewPresented)})
+            LoginView(username: $userData.username, isPresented: $isLoginViewPresented)})
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(TweetData())
+            .environmentObject(UserData())
     }
 }

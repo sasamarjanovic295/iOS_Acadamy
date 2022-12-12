@@ -19,6 +19,10 @@
 		017F30DA29476009009F19F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017F30AF29476009009F19F9 /* Assets.xcassets */; };
 		017F30EC29476074009F19F9 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30EB29476074009F19F9 /* Tweet.swift */; };
 		017F30EE2947616A009F19F9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F30ED2947616A009F19F9 /* LoginView.swift */; };
+		01F6517329478D7A0099FD9A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6517229478D7A0099FD9A /* SearchView.swift */; };
+		01F65175294793C40099FD9A /* TweetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F65174294793C40099FD9A /* TweetData.swift */; };
+		01F65177294799AB0099FD9A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F65176294799AB0099FD9A /* UserData.swift */; };
+		01F651792947A3470099FD9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F651782947A3470099FD9A /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		017F30D329476009009F19F9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		017F30EB29476074009F19F9 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		017F30ED2947616A009F19F9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		01F6517229478D7A0099FD9A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		01F65174294793C40099FD9A /* TweetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetData.swift; sourceTree = "<group>"; };
+		01F65176294799AB0099FD9A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		01F651782947A3470099FD9A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				017F30AF29476009009F19F9 /* Assets.xcassets */,
 				017F30EB29476074009F19F9 /* Tweet.swift */,
 				017F30ED2947616A009F19F9 /* LoginView.swift */,
+				01F6517229478D7A0099FD9A /* SearchView.swift */,
+				01F65174294793C40099FD9A /* TweetData.swift */,
+				01F65176294799AB0099FD9A /* UserData.swift */,
+				01F651782947A3470099FD9A /* ProfileView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -305,8 +317,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F651792947A3470099FD9A /* ProfileView.swift in Sources */,
+				01F6517329478D7A0099FD9A /* SearchView.swift in Sources */,
 				017F30EC29476074009F19F9 /* Tweet.swift in Sources */,
+				01F65177294799AB0099FD9A /* UserData.swift in Sources */,
 				017F30D729476009009F19F9 /* ContentView.swift in Sources */,
+				01F65175294793C40099FD9A /* TweetData.swift in Sources */,
 				017F30EE2947616A009F19F9 /* LoginView.swift in Sources */,
 				017F30D529476009009F19F9 /* BirdyApp.swift in Sources */,
 			);
