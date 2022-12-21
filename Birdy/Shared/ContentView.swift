@@ -39,11 +39,17 @@ struct ContentView: View {
                 TextField("Content", text: $content)
                 
                 Button(action: {
-                    tweetData.tweets.append(TweetModel(
+                    let tweet = TweetModel(
                         content: content,
                         username: userData.username,
                         date: Date(),
-                        image: "crow"))
+                        imageURL: IMAGE_URL)
+                    
+                    Task {
+                        await tweetData.sendTweet(tweet:tweet)
+                        await tweetData.fetchTweets()
+                    }
+                    
                     content=""
                 }){
                     Text("New Tweet")
